@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains the code and data associated with the paper "A Recurrent Neural Network Approach to Real-Time Multimedia Communication Assessment via Facial Expressions". The repository includes the dataset used in the study, as well as Jupyter notebooks for data processing, model training, and evaluation.
+This repository contains the code and data associated with the paper "A Recurrent Neural Network Approach to Real-Time Multimedia Communication Assessment via Facial Expressions", submitted to IEEE Latincom 2024. The repository includes the dataset used in the study, as well as Jupyter notebooks for data processing, model training, and evaluation.
 
 ## Repository Structure
 
