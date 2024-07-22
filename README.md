@@ -25,24 +25,22 @@ This repository contains the code and data associated with the paper "A Recurren
 │   ├── 2_model_training_experiment_parameters.ipynb
 │   ├── 3_model_training_webrtc_internals.ipynb
 │   └── 4_model_evaluation.ipynb
-├── src
-│   ├── data_preprocessing.py
-│   ├── model_training.py
-│   ├── model_evaluation.py
-│   └── utils.py
-├── README.md
-└── requirements.txt
+└── README.md
 ```
 
 ## Getting Started
 
-### Prerequisites
+[//]: # (### Prerequisites)
 
-To run the code in this repository, you need to have Python 3.7+ installed. You can install the required Python packages using the following command:
+[//]: # ()
+[//]: # (To run the code in this repository, you need to have Python 3.7+ installed. You can install the required Python packages using the following command:)
 
-```bash
-pip install -r requirements.txt
-```
+[//]: # ()
+[//]: # (```bash)
+
+[//]: # (pip install -r requirements.txt)
+
+[//]: # (```)
 
 ### Data
 
@@ -57,14 +55,19 @@ The `notebooks` directory contains Jupyter notebooks for data preprocessing, mod
 3. **3_model_training_webrtc_internals.ipynb**: This notebook contains the code for training the recurrent neural network model to predict WebRTC internals (video and audio packet loss and jitter).
 4. **4_model_evaluation.ipynb**: This notebook contains the code for evaluating the trained models and visualizing the results.
 
-### Source Code
+[//]: # (### Source Code)
 
-The `src` directory contains the source code for data preprocessing, model training, and evaluation:
+[//]: # ()
+[//]: # (The `src` directory contains the source code for data preprocessing, model training, and evaluation:)
 
-- **data_preprocessing.py**: Functions for preprocessing the raw data.
-- **model_training.py**: Functions for training the recurrent neural network models.
-- **model_evaluation.py**: Functions for evaluating the trained models.
-- **utils.py**: Utility functions used throughout the project.
+[//]: # ()
+[//]: # (- **data_preprocessing.py**: Functions for preprocessing the raw data.)
+
+[//]: # (- **model_training.py**: Functions for training the recurrent neural network models.)
+
+[//]: # (- **model_evaluation.py**: Functions for evaluating the trained models.)
+
+[//]: # (- **utils.py**: Utility functions used throughout the project.)
 
 ## Usage
 
@@ -92,8 +95,8 @@ If you use this code or data in your research, please cite the following paper:
 @article{Neto2023RealTime,
   title={A Recurrent Neural Network Approach to Real-Time Multimedia Communication Assessment via Facial Expressions},
   author={Eduardo Lopes Pereira Neto, Sergio Hayashi, Daniel Macedo Batista, R. Hirata Jr., Nina S. T. Hirata, Karina Valdivia Delgado},
-  journal={arXiv preprint arXiv:2301.12345},
-  year={2023}
+  journal={arXiv preprint arXiv:(not defined yet},
+  year={2024}
 }
 ```
 
