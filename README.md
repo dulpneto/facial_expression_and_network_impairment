@@ -1,8 +1,17 @@
 # Real-Time Multimedia Communication Assessment via Facial Expressions
 
+
 ## Overview
 
 This repository contains the code and data associated with the paper "A Recurrent Neural Network Approach to Real-Time Multimedia Communication Assessment via Facial Expressions", submitted to IEEE Latincom 2024. The repository includes the dataset used in the study, as well as Jupyter notebooks for data processing, model training, and evaluation.
+
+## Paper abstract
+
+The rapid adoption of video calls for remote work and virtual collaboration has highlighted the critical need for high-quality user experiences in real-time communication platforms. Traditional methods for assessing users' Quality of Experience (QoE) often rely on subjective user feedback, which can be inconsistent and difficult to quantify. We propose a novel approach that leverages facial expression analysis to predict network instabilities during video calls. Our methodology integrates facial expression data with network performance metrics to predict potential instabilities in real-time.
+
+Using facial expression data collected during video calls, we employed a multi-output recurrent neural network model to predict network impairments. Our results demonstrate that the model effectively identifies facial expression features associated with network impairments, achieving high accuracy rates, particularly in predicting video-related issues (for instance, 91.30% accuracy for video packet loss). This indicates the potential of facial expression analysis as a reliable predictor of network performance issues, offering a more objective and user-centric assessment of QoE. In addition to the model, we present an Exploratory Data Analysis that discusses some precautions before feeding a learning model with a dataset. To facilitate the reproduction of our proposal, we used an openly available dataset, and all the code developed by us is shared as open source software.
+
+
 
 ## Repository Structure
 
