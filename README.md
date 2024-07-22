@@ -34,6 +34,9 @@ Using facial expression data collected during video calls, we employed a multi-o
 
 ### Data
 
+Source of the data: <br/>
+https://ieee-dataport.org/documents/webrtc-qoe-dataset-quality-experience-audio-video-communications
+
 The `data` directory contains the raw and processed data used in the study. The raw data is organized by user and test case, while the processed data is stored in NumPy arrays for easy loading during model training.
 
 ### Notebooks
