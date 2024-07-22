@@ -10,31 +10,18 @@ This repository contains the code and data associated with the paper "A Recurren
 .
 ├── data
 │   ├── raw
-│   │   ├── user_1
-│   │   │   ├── TC1_0-0-0.csv
-│   │   │   ├── ...
-│   │   └── ...
+│   │   ├── Facial_expression_features_dataset
+│   │   │   ├── User1
+│   │   │   │   ├── TC1_0-0-0.csv
+│   │   │   │   ├── ...
+│   │   │   └── ...
 ├── notebooks
 │   ├── 1_data_preprocessing.ipynb
 │   ├── 2_model_training_experiment_parameters.ipynb
-│   ├── 3_model_training_webrtc_internals.ipynb
-│   └── 4_model_evaluation.ipynb
+│   └── 3_model_training_webrtc_internals.ipynb
 └── README.md
 ```
 
-## Getting Started
-
-[//]: # (### Prerequisites)
-
-[//]: # ()
-[//]: # (To run the code in this repository, you need to have Python 3.7+ installed. You can install the required Python packages using the following command:)
-
-[//]: # ()
-[//]: # (```bash)
-
-[//]: # (pip install -r requirements.txt)
-
-[//]: # (```)
 
 ### Data
 
@@ -47,7 +34,6 @@ The `notebooks` directory contains Jupyter notebooks for data preprocessing, mod
 1. **1_data_preprocessing.ipynb**: This notebook contains the code for preprocessing the raw data, including filtering, standardization, and sequence generation.
 2. **2_model_training_experiment_parameters.ipynb**: This notebook contains the code for training the recurrent neural network model to predict experiment parameters (delay, jitter, and packet loss).
 3. **3_model_training_webrtc_internals.ipynb**: This notebook contains the code for training the recurrent neural network model to predict WebRTC internals (video and audio packet loss and jitter).
-4. **4_model_evaluation.ipynb**: This notebook contains the code for evaluating the trained models and visualizing the results.
 
 [//]: # (### Source Code)
 
@@ -67,15 +53,11 @@ The `notebooks` directory contains Jupyter notebooks for data preprocessing, mod
 
 ### Data Preprocessing
 
-To preprocess the raw data, run the `1_data_preprocessing.ipynb` notebook. This will generate the processed data files in the `data/processed` directory.
+To preprocess the raw data, run the `1_data_preprocessing.ipynb` notebook. 
 
 ### Model Training
 
 To train the models, run the `2_model_training_experiment_parameters.ipynb` and `3_model_training_webrtc_internals.ipynb` notebooks. These notebooks will save the trained models and training logs.
-
-### Model Evaluation
-
-To evaluate the trained models, run the `4_model_evaluation.ipynb` notebook. This will generate evaluation metrics and visualizations.
 
 ## Acknowledgments
 
