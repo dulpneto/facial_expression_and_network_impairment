@@ -14,12 +14,6 @@ This repository contains the code and data associated with the paper "A Recurren
 │   │   │   ├── TC1_0-0-0.csv
 │   │   │   ├── ...
 │   │   └── ...
-│   ├── processed
-│   │   ├── X_train.npy
-│   │   ├── Y_train.npy
-│   │   ├── X_test.npy
-│   │   └── Y_test.npy
-│   └── README.md
 ├── notebooks
 │   ├── 1_data_preprocessing.ipynb
 │   ├── 2_model_training_experiment_parameters.ipynb
